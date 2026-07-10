@@ -38,4 +38,7 @@ jobs:
                - Resumen del problema/solicitud.
                - Causa probable o componentes involucrados (referencia archivos como game.js, index.html, style.css cuando aplique).
                - Enfoque de solución sugerido a alto nivel.
+               El comentario debe estar escrito en formato Markdown válido que GitHub pueda renderizar
+               correctamente (encabezados con `##`, listas con `-`, `código en línea` para nombres de
+               archivo, bloques de código con \`\`\` cuando aplique, negritas para resaltar términos clave, etc.).
                No implementes la solución ni modifiques código.

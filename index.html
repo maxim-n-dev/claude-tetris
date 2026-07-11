@@ -56,7 +56,21 @@
       <div class="overlay-box">
         <p id="overlay-title">GAME OVER</p>
         <p id="overlay-score"></p>
+
+        <div id="name-entry" class="hidden">
+          <input type="text" id="name-input" maxlength="12" placeholder="Tu nombre" aria-label="Nombre para el ranking">
+          <button id="submit-name-btn">Guardar</button>
+        </div>
+
+        <div id="highscore-section">
+          <span class="label">TOP 5</span>
+          <ol id="highscore-list"></ol>
+          <p id="best-combo-display"></p>
+          <p id="max-lines-display"></p>
+        </div>
+
         <button id="restart-btn">Reiniciar</button>
+        <button id="reset-records-btn">Reiniciar récords</button>
       </div>
     </div>
   </div>
